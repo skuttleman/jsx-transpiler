@@ -7,10 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "babel --presets es2015,react --watch src/ --out-dir public/js"
   },
-  "author": "",
+  "author": "Ben Allred",
   "license": "ISC",
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skuttleman/jsx-transpiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skuttleman/jsx-transpiler/issues"
+  },
+  "homepage": "https://github.com/skuttleman/jsx-transpiler#readme"
 }
